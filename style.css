@@ -1,0 +1,396 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headingnav {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 50px 30px 50px 30px;
+}
+
+.navigation {
+    display: none;
+}
+
+.logo {
+    font-size: 35px;
+    margin: 0;
+}
+
+.tours {
+    color: rgb(97, 73, 230);
+}
+
+.icon {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.icon:first-child {
+    margin-left: 10px;
+}
+
+.icon:last-child {
+    margin-right: 0;
+}
+
+.exploring-wrapper {
+    background-color: rgb(97, 73, 230);
+    display: grid;
+    place-items: center;
+    padding: 300px 20px 300px 20px;
+}
+
+.exploring {
+    font-size: 60px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.exploring-wrapper-text {
+    font-size: 30px;
+    color: white;
+}
+
+.button.button-primary {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.4);
+    margin-top: 5%;
+    background-color: rgb(97, 73, 230);
+}
+
+.about-us-header {
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.about-us-content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 40px 20px 40px 20px;
+}
+
+.image-borders {
+    border: 8px solid rgb(97, 73, 230);
+    position: relative;
+}
+  
+.about-us-image-wrapper img {
+    max-width: 100%;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+  
+.explore-difference {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+  
+.about-us-text1,
+.about-us-text2 {
+    text-align: left;
+}
+  
+.read-more-button {
+    text-decoration: none;
+    color: blue;
+}
+
+.our-services {
+    background-color: #f2f1ed;
+    padding: 40px 20px 40px 20px;
+}
+
+.services-title-wrapper {
+    text-align: center;
+}
+
+.services-title-wrapper h1 {
+    text-transform: uppercase;
+}
+
+.services-section-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    margin-top: 60px;
+    padding: 40px 30px 80px 30px;
+}
+
+.saving-money-wrapper,
+.endless-hiking-wrapper,
+.amazing-comfort-wrapper {
+    text-align: center;
+}
+
+.services-icon {
+    width: 60px;
+    height: 80px;
+    background-color: rgb(97, 73, 230);
+    padding: 15px;
+}
+
+.services-title {
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.featured-tours-title {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 40px 20px 40px 20px;
+}
+
+.featured-tours-content-wrapper {
+    display: grid;
+    margin-bottom: 50px;
+}
+
+.tibet-adventure-wrapper {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tibet-adventure-wrapper .mountain-img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.date {
+    position: absolute;
+    background-color: rgb(97, 73, 230);
+    top: 20px;
+    padding: 0px 20px 0px 20px;
+}
+
+.tibet-adventure {
+    padding: 0px 0px 0px 20px;
+}
+
+.location-price-wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-items: start;
+    gap: 5px;
+    padding: 20px;
+}
+
+.location-wrapper {
+    grid-column: 1 / 2;
+    display: flex;
+    align-items: center;
+  }
+
+.location-wrapper img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.all-tours {
+    text-decoration: none;
+    color: rgb(97, 73, 230);
+    padding: 40px 30px 80px 30px;  
+}
+
+.all-tours-wrapper {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.our-gallery-title {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.our-gallery-title-wrapper {
+    background-color: rgba(128, 128, 128, 0.156);
+    width: 100%;
+}
+
+.mountain-image {
+    width: 100%;
+    border-bottom: 5px solid rgb(97, 73, 230);
+    display: block;
+}
+
+.our-gallery-content-wrapper {
+    display: grid;
+}
+
+.text-container {
+    text-align: center;
+}
+
+.info {
+    margin: 0;
+    text-transform: uppercase;
+    color: white;
+    padding: 0 30px 10px 40px;
+    text-align: justify;
+}
+
+.sign-up {
+    text-transform: capitalize;
+    color: white;
+    text-align: left;
+}
+
+.content-card {
+    background-color: rgb(97, 73, 230);
+    padding: 50px 30px 50px 30px;
+}
+
+.content-card {
+    display: grid;
+    grid-template-columns: 55% 45%;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.e-mail-subscription {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#email {
+    width: 100%;
+    padding: 8px;
+    padding-right: 30px;
+}
+
+#submit {
+    padding: 10px;
+    border: none;
+}
+
+.footer-wrapper {
+    color: white;
+    width: 100%;
+}
+
+.footer-card {
+    background-color: black;
+    display: grid;
+    justify-content: center;
+    padding: 50px 20px 50px 20px;
+}
+
+.footer-card-content-wrapper {
+    display: grid;
+    place-content: center;
+    row-gap: 50px;
+    text-align: center;
+}
+
+.footer-navigation a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.footer-navigation svg {
+    margin-right: 5px;
+}
+
+@media screen and (min-width: 1000px) {
+
+    .navigation {
+        display: block;
+    }
+
+    .headingnav {
+        grid-template-columns: auto auto auto;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 20px;
+    }
+
+    .navigation a {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        margin-right: 10px;
+        font-weight: 700;
+    }
+
+    .exploring-wrapper {
+        background-image: url(images/TAL-tour-du-mont-blanc-WORLDHIKES0523-ecb102509c2e47b18b8cdd6aec848db2.jpg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+        padding: 300px 20px 200px 20px;
+}
+
+    .about-us-content-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        column-gap: 50px;
+}
+
+    .services-section-wrapper {
+        display: grid;
+        grid-template-columns: auto auto auto;
+}
+
+    .saving-money-wrapper,
+    .endless-hiking-wrapper,
+    .amazing-comfort-wrapper {
+        text-align: left;
+        display: grid;
+        grid-template-columns: auto 300px;
+        justify-content: start;
+        align-items: center;
+        column-gap: 20px;
+}
+
+    .dekstop-featured-tours-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: auto;
+        padding: 40px 30px 40px 30px;
+}
+
+    .featured-tours-content-wrapper {
+        margin-right: 50px;
+}
+
+    .our-gallery-mountain-images {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .mountain-image {
+        width: 100%;
+        height: 100%;
+    }
+}
